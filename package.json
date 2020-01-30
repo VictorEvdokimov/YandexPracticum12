@@ -1,7 +1,7 @@
 {
   "name": "project12",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple photo gallery application with likes",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -16,7 +16,6 @@
     "nodemon": "^2.0.2"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "fs": "0.0.1-security"
+    "express": "^4.17.1"
   }
 }

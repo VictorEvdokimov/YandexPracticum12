@@ -12,7 +12,7 @@ router.get('/users/:id', (req, res) => {
   const user = users.find((item) => item._id === req.params.id);
 
   if (!user) {
-    res.status(404).send({ error: 'Нет пользователя с таким id' });
+    res.status(404).send({ message: 'Нет пользователя с таким id' });
   } else {
     res.send(user);
   }
